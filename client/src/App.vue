@@ -1,26 +1,26 @@
 <template>
-  <div id="app">
-    <AuthScreen msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <AuthScreen />
+  </v-app>
 </template>
 
 <script>
-import AuthScreen from './components/AuthScreen'
+import AuthScreen from "./components/AuthScreen";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    AuthScreen
-  }
-}
+    AuthScreen,
+  },
+};
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700&display=swap");
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 </style>
